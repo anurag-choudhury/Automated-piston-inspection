@@ -27,9 +27,9 @@ def click_image(flag, counter):
     camera.Close()
 
     # Directories for saving images
-    directory = r'/fsm_piston/Cobot-Communication/images_camera/'
-    directory_crown = r'/fsm_piston/Cobot-Communication/images_camera/crown_img'
-    directory_ring = r'/fsm_piston/Cobot-Communication/images_camera/ring_zone_img'
+    directory = r'/fsm_piston/src/Cobot-Communication/images_camera/'
+    directory_crown = r'/fsm_piston/src/Cobot-Communication/images_camera/crown_img'
+    directory_ring = r'/fsm_piston/src/Cobot-Communication/images_camera/ring_zone_img'
 
     # Choose directory and filename based on the flag
     if flag == 0:
